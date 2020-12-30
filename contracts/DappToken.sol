@@ -18,8 +18,8 @@ contract DappToken{
         address indexed _spender,
         uint256 _value
     );
-
-    mapping (address => uint256) public balanceOf;
+    
+        mapping (address => uint256) public balanceOf;
     mapping(address  => mapping(address => uint256)) public allowance;
 
     constructor(uint256 _initialSupply) public{
